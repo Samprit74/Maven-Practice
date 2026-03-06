@@ -1,0 +1,42 @@
+# Maven build output
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Compiled class files
+*.class
+
+# Logs
+*.log
+
+# Maven wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE - IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# IDE - VS Code
+.vscode/
+
+# IDE - Eclipse
+.project
+.classpath
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# GitHub automation (optional)
+.github/
+
+# Temporary files
+*.tmp
+*.swp

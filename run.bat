@@ -10,12 +10,9 @@ echo ===============================
 @REM -DinteractiveMode=false//mvn archetype:generate -DgroupId=com.roy.prac -DartifactId=mylib -Dversion=1.0 -Dpackage=com.roy.prac -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeGroupId=org.apache.maven.archetypes -DinteractiveMode=false
 
 mvn archetype:generate ^
--DgroupId=com.roy.app ^
--DartifactId=app ^
--Dversion=1.0 ^
--Dpackage=com.roy.app ^
+-DgroupId=com.roy.algo ^
+-DartifactId=algorithm-toolkit ^
 -DarchetypeArtifactId=maven-archetype-quickstart ^
--DarchetypeGroupId=org.apache.maven.archetypes ^
 -DinteractiveMode=false
 
 
